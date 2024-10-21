@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/home/ashkan/Downloads/SQL/Ex_Files_SQL_EssT/Exercise Files/WSDA_Music.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3968"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,6:mainArtist"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="Album" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="60"/><column index="2" value="234"/><column index="3" value="54"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Artist" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="1" mode="1"/></sort><column_widths><column index="1" value="107"/><column index="2" value="158"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Customer" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="81"/><column index="2" value="75"/><column index="3" value="91"/><column index="4" value="300"/><column index="5" value="278"/><column index="6" value="137"/><column index="7" value="48"/><column index="8" value="107"/><column index="9" value="78"/><column index="10" value="129"/><column index="11" value="124"/><column index="12" value="198"/><column index="13" value="94"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Employee" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="80"/><column index="2" value="71"/><column index="3" value="72"/><column index="4" value="131"/><column index="5" value="70"/><column index="6" value="130"/><column index="7" value="130"/><column index="8" value="190"/><column index="9" value="74"/><column index="10" value="41"/><column index="11" value="58"/><column index="12" value="77"/><column index="13" value="115"/><column index="14" value="115"/><column index="15" value="182"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Genre" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="57"/><column index="2" value="121"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Invoice" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="65"/><column index="2" value="81"/><column index="3" value="130"/><column index="4" value="278"/><column index="5" value="137"/><column index="6" value="80"/><column index="7" value="107"/><column index="8" value="118"/><column index="9" value="55"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="InvoiceLine" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="93"/><column index="2" value="65"/><column index="3" value="53"/><column index="4" value="65"/><column index="5" value="63"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="MediaType" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="88"/><column index="2" value="176"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Playlist" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="65"/><column index="2" value="161"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="PlaylistTrack" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="65"/><column index="2" value="53"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Track" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="53"/><column index="2" value="156"/><column index="3" value="60"/><column index="4" value="88"/><column index="5" value="57"/><column index="6" value="210"/><column index="7" value="85"/><column index="8" value="83"/><column index="9" value="65"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="V_AvgTotal" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="461"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="V_Tracks_Invoiceline" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="65"/><column index="2" value="65"/><column index="3" value="63"/><column index="4" value="146"/><column index="5" value="221"/><column index="6" value="85"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">--Hello
+
+/*
+
+helloooooooooooo
+
+*/
+</sql><sql name="SQL 2">/*
+created by Ashkan Alvand
+Date: 15/10/2024
+Description: This query displays all customers firs, last names and email addresses
+*/
+
+-- Working with SELECT and FROM
+/* 
+SELECT
+FirstName,
+LastName,
+Email
+
+FROM
+Customer
+*/
+
+-- Aliasing
+
+SELECT
+FirstName As [Customer First Name],
+LastName As 'Customer Last Name',
+Email As EMAIL
+
+FROM
+Customer
+-- ordering 
+order by
+FirstName ASC,
+LastName DESC
+
+-- top or botton x number
+LIMIT 10</sql><sql name="SQL 3">
+/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: This report generates list of track names alongsides its prices
+*/
+
+
+SELECT
+Name As &quot;Track Name&quot;,
+UnitPrice As &quot;Price&quot;
+
+FROM
+Track
+
+order by
+Name
+LIMIT
+20
+</sql><sql name="SQL 4">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: Customers who purchased two songs at $0.99 each
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+total
+
+From 
+Invoice
+
+Where 
+total = 1.98 --beacause 0.99+0.99 =1.98
+
+ORDER by
+InvoiceDate
+</sql><sql name="SQL 5">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: How many invoice exist between $1.98 and $5
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+total
+
+From 
+Invoice
+
+Where 
+total BETWEEN 1.98 AND 5
+
+ORDER by
+InvoiceDate
+
+</sql><sql name="SQL 6">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: How many invoice do we have that are exactly $1.98 or $3.96
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+total
+
+From 
+Invoice
+
+Where 
+total In (1.98,3.96)
+
+ORDER by
+InvoiceDate
+
+</sql><sql name="SQL 7">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: How many invoice were billed to the city of Brussels
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+BillingCity = 'Brussels'
+
+ORDER by
+InvoiceDate
+
+</sql><sql name="SQL 8">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: How many invoices were billed to Brussels, Orlando or Paris
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+BillingCity In ('Brussels', 'Orlando', 'Paris')
+
+ORDER by
+InvoiceDate
+
+</sql><sql name="SQL 9">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: How many invoices were billed to cities that starts with B
+*/
+
+-- partial operator, search for guesses
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+BillingCity like 'B%'
+
+ORDER by
+InvoiceDate
+
+</sql><sql name="SQL 10">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: How many invoices were billed to cities that have B anywhere in its name
+*/
+
+-- partial operator, search for guesses
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+BillingCity like '%B%'
+
+ORDER by
+InvoiceDate
+
+</sql><sql name="SQL 11">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: How many invoices were billed in May 22, 2010 (2010-05-22 00:00:00)
+*/
+
+-- partial operator, search for guesses
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+--InvoiceDate = '2010-05-22 00:00:00'
+date (InvoiceDate) = '2010-05-22'
+
+ORDER by
+InvoiceDate
+
+</sql><sql name="SQL 12">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: Get all invoices were billed after May 22, 2010 and have total of less than $3.00
+*/
+
+-- partial operator, search for guesses
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+date (InvoiceDate) &gt; '2010-05-22' AND total&lt;3.00
+
+ORDER by
+InvoiceDate
+
+</sql><sql name="SQL 13">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: Get all invoices whose billing cities starts with P or D
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+BillingCity like 'P%' or BillingCity like 'D%'
+
+ORDER by
+InvoiceDate
+
+</sql><sql name="SQL 14">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: Get all invoices that are greater than $1.98 from any cities whose name starts with P or D
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+total &gt; 1.98 AND (BillingCity like 'P%' or BillingCity like 'D%')
+
+ORDER by
+InvoiceDate
+
+</sql><sql name="SQL 15">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: Report that shows as many customers as possible purchasing between $7 and $15
+
+Sales categories:
+Baseline purchases between 0.99 and 1.99
+Low purchases between $2 and $6.99
+Target purchases between $7 and $15
+Top performer Above $15
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total,
+CASE
+WHEN total&lt;2 THEN 'Baseline Purchase'
+WHen total BETWEEN 2.00 and 6.99 THEN 'Low Purchase'
+WHEN total BETWEEN 7.00 and 15.00 THEN 'Target Purchase'
+ELSE 'Top Performer'
+end as PurchaseType
+
+
+From 
+Invoice
+
+ORDER by
+InvoiceDate
+
+</sql><sql name="SQL 16">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: Report that shows as many customers as possible purchasing between $7 and $15
+which cities has top performer
+
+Sales categories:
+Baseline purchases between 0.99 and 1.99
+Low purchases between $2 and $6.99
+Target purchases between $7 and $15
+Top performer Above $15
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total,
+CASE
+WHEN total&lt;2 THEN 'Baseline Purchase'
+WHen total BETWEEN 2.00 and 6.99 THEN 'Low Purchase'
+WHEN total BETWEEN 7.00 and 15.00 THEN 'Target Purchase'
+ELSE 'Top Performer'
+end as PurchaseType
+
+From 
+Invoice
+
+WHERE
+PurchaseType = 'Top Performer'
+ORDER by
+InvoiceDate
+
+</sql><sql name="SQL 17">/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: write sql query that select track names, composers, and unit price and categorize each track based on its price 
+
+Track categories:
+Budget less than or equal to  $0.99
+Regular between $1.00 and $1.49
+Premium between $1.50 and $1.99
+Exclusive Above $1.99
+*/
+
+SELECT
+Name As &quot;Track Name&quot; ,
+Composer,
+UnitPrice As Price,
+CASE
+    WHEN UnitPrice &lt;= 0.99 THEN 'Budget'
+    WHEN UnitPrice &gt; 0.99 AND UnitPrice &lt;= 1.49 THEN 'Regular'
+    WHEN UnitPrice &gt; 1.49 AND UnitPrice &lt;= 1.99 THEN 'Premium'
+    ELSE 'Exclusive'
+END AS PriceCategory
+
+FROM
+Track
+
+ORDER by 
+UnitPrice DESC;</sql><sql name="SQL 18">/*
+Created by Ashkan
+Date: 17/10/2024
+Describtion: Join two tables via primary and secondary keys
+*/
+
+SELECT
+*
+FROM
+Invoice
+
+INNER JOIN
+Customer
+ON
+Invoice.CustomerId = Customer.CustomerId
+
+ORDER By
+Customer.CustomerId</sql><sql name="SQL 19">/*
+Created by Ashkan
+Date: 17/10/2024
+Describtion: Inner join: Join two tables via their primary and secondary keys. Joing corresponding data that are shared between two tables but not included discripensies
+*/
+
+SELECT
+c.LastName,
+c.FirstName,
+i.InvoiceId,
+i.total
+FROM
+Invoice As i
+INNER JOIN
+Customer As c
+ON
+i.CustomerId = c.CustomerId
+
+ORDER By
+c.CustomerId</sql><sql name="SQL 20">/*
+Created by Ashkan
+Date: 17/10/2024
+Describtion: Left outer join: include discripensies, data that does not exist in right table 
+*/
+
+SELECT
+c.LastName,
+c.FirstName,
+i.InvoiceId,
+i.total
+FROM
+Invoice As i
+LEFT OUTER JOIN
+Customer As c
+ON
+i.CustomerId = c.CustomerId
+
+ORDER By
+c.CustomerId</sql><sql name="SQL 21">/*
+Created by Ashkan
+Date: 17/10/2024
+Describtion: Right outer join: include discripensies, data that does not exist in left table: this command does not exist in the SQLite so it would be best to change the order of the tables 
+*/
+
+SELECT
+c.LastName,
+c.FirstName,
+i.InvoiceId,
+i.total
+FROM
+Invoice As i
+RIGHT OUTER JOIN
+Customer As c
+ON
+i.CustomerId = c.CustomerId
+
+ORDER By
+c.CustomerId</sql><sql name="SQL 22">/*
+Created by Ashkan
+Date: 17/10/2024
+Describtion: Joining two tables: WHat employees are responsible for 10 highest individual sales? 
+*/
+
+SELECT
+ e.FirstName,
+ e.LastName,
+ e.EmployeeId,
+ c.FirstName,
+ c.LastName,
+ c.SupportRepId,
+ i.CustomerId,
+ i.total
+FROM
+ Invoice As i
+INNER JOIN 
+ Customer As c
+ON
+  i.CustomerId = c.CustomerId
+INNER JOIN
+ Employee As e
+ON
+c.SupportRepId = e.EmployeeId
+ORDER BY
+i.total DESC
+LIMIT 10</sql><sql name="SQL 23">/*
+Created by Ashkan
+Date: 17/10/2024
+Describtion: Write SQL query to generate a report that lists each customer along with their assigned support representative
+*/
+
+SELECT
+c.FirstName As &quot;Customer First Name&quot;,
+c.LastName As &quot;Customer Last Name&quot;,
+e.FirstName As &quot;Employee First Name&quot;,
+e.LastName As &quot;Employee Last Name&quot;,
+c.CustomerId,
+e.EmployeeId,
+c.SupportRepId
+
+FROM
+Customer As c
+INNER JOIN 
+Employee As e
+ON
+c.SupportRepId = e.EmployeeId
+ORDER By
+e.LastName, c.LastName</sql><sql name="SQL 24">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Concatenating: connecting collumns in a tables: make a mailing list of US customers
+*/
+
+SELECT
+FirstName,
+LastName,
+Address,
+FirstName ||' '||LastName||' '||Address||','|| City||','||State||','||PostalCode As &quot;Mailing Address&quot;
+
+FROM
+Customer
+
+WHERE
+Country = &quot;USA&quot;</sql><sql name="SQL 25">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Concatenating: connecting collumns in a tables: make a mailing list of US customers
+removing unnecessary digits from postal code
+
+*/
+
+SELECT
+FirstName,
+LastName,
+Address,
+FirstName ||' '||LastName||' '||Address||','|| City||','||State||','||PostalCode As &quot;Mailing Address&quot;,
+length(PostalCode),
+substr(PostalCode,1,5)
+
+FROM
+Customer
+
+WHERE
+Country = &quot;USA&quot;</sql><sql name="SQL 26">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Concatenating: connecting collumns in a tables: make a mailing list of US customers
+removing unnecessary digits from postal code
+usage of Upper and Lower functions
+*/
+
+SELECT
+FirstName,
+LastName,
+Address,
+FirstName ||' '||LastName||' '||Address||','|| City||','||State||','||PostalCode As &quot;Mailing Address&quot;,
+length(PostalCode),
+substr(PostalCode,1,5),
+upper(FirstName) As &quot;Uppercase first name &quot;,
+lower(LastName) AS &quot;Lowercase Last Name&quot;
+
+FROM
+Customer
+
+WHERE
+Country = &quot;USA&quot;</sql><sql name="SQL 27">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: strftime function: Calculate ages of all employees
+*/
+
+SELECT
+LastName,
+FirstName,
+BirthDate,
+strftime('%Y-%m-%d',Birthdate) As &quot;Birth date no Time&quot;,
+strftime('%Y-%m-%d','now') - strftime('%Y-%m-%d',Birthdate) As Age
+
+FROM
+Employee</sql><sql name="SQL 28">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: agregate function: What are our all time global sales?
+*/
+
+SELECT
+sum(total) As &quot;Total sale&quot;,
+round(avg(total),2) AS &quot;Average Sale&quot;,
+max(total) AS &quot;Maximum sale&quot;,
+min(total) AS &quot;Minimum Sale&quot;,
+Count(*) As &quot;Sales Count&quot;
+
+FROM
+Invoice</sql><sql name="SQL 29">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Write a SQL query that selects custermer's full name and transform their postal code into standardized 5-digits format.
+*/
+
+SELECT
+FirstName,
+LastName,
+PostalCode,
+FirstName||' '||LastName AS &quot;Fullname&quot;,
+substr(PostalCode,1,5) AS &quot;Standardized Postal Code&quot;
+
+FROM
+Customer
+
+WHERE
+Country = 'USA'
+ORDER BY
+Fullname</sql><sql name="SQL 30">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Grouping in SQL: What are average invoice total by city?
+*/
+
+SELECT
+BillingCity,
+round(avg(total),2)
+
+FROM
+Invoice 
+GROUP BY
+BillingCity
+ORDER BY
+BillingCity
+</sql><sql name="SQL 31">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Grouping in SQL: What are average invoice total by city?
+*/
+
+SELECT
+BillingCity,
+round(avg(total),2)
+
+FROM
+Invoice 
+GROUP BY
+BillingCity
+ORDER BY
+BillingCity
+</sql><sql name="SQL 32">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Grouping in SQL: What are average invoice total by city for only citiis start with L?
+*/
+
+SELECT
+BillingCity,
+round(avg(total),2)
+
+FROM
+Invoice 
+
+WHERE
+BillingCity like 'L%'
+
+GROUP BY
+BillingCity
+
+ORDER BY
+BillingCity
+</sql><sql name="SQL 33">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Grouping in SQL: What are average invoice total greater than $5.00?
+
+Having clause for filtering non-aggregated query
+*/
+
+SELECT
+BillingCity,
+round(avg(total),2)
+FROM
+Invoice 
+GROUP BY
+BillingCity
+HAVING
+avg(total)&gt;5
+ORDER BY
+BillingCity
+</sql><sql name="SQL 34">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Grouping in SQL: What are average invoice total greater than $5.00 and cities starts with B?
+
+Having clause for filtering non-aggregated query
+*/
+
+SELECT
+BillingCity,
+round(avg(total),2)
+FROM
+Invoice 
+WHERE
+BillingCity like 'B%'
+GROUP BY
+BillingCity
+HAVING
+avg(total)&gt;5
+ORDER BY
+BillingCity
+</sql><sql name="SQL 35">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Grouping by more than at a time | What are average invoice total by billing country and city?
+
+*/
+
+SELECT
+BillingCountry,
+BillingCity,
+round(avg(total),2)
+FROM
+Invoice 
+
+GROUP BY
+BillingCountry,BillingCity
+
+ORDER BY
+BillingCountry
+</sql><sql name="SQL 36">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Grouping task: Create SQL report that calculates the average spending amount of customers in each city
+*/
+
+SELECT
+BillingCity AS City,
+round(avg(i.total),2) As 'average Spend'
+FROM
+Invoice i
+
+GROUP by
+BillingCity
+ORDER By
+City ASC
+
+</sql><sql name="SQL 37">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Subqueries: gather data about all the invoices that are less than this average?
+*/
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+FROM
+Invoice
+WHERE
+total &lt; (SELECT avg(total) FROM Invoice)
+ORDER BY
+total DESC</sql><sql name="SQL 38">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Subqueries in the SELECT: How is each individual city performing against the global average sales?
+*/
+
+SELECT
+BillingCity,
+round(avg(total),2) As &quot;City Average&quot;,
+(SELECT round(avg(total),2) from Invoice) As &quot;Global Average&quot;
+
+FROM
+Invoice
+GROUP by
+BillingCity
+ORDER by
+BillingCity</sql><sql name="SQL 39">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Subqueries without agregate function
+*/
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity
+FROM
+Invoice
+WHERE 
+InvoiceDate&gt;
+(SELECT
+InvoiceDate
+FROM
+Invoice
+WHERE
+InvoiceId=251)</sql><sql name="SQL 40">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: returning multiple values from subquery
+*/
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity
+FROM
+Invoice
+WHERE 
+InvoiceDate IN
+
+(SELECT
+InvoiceDate
+FROM
+Invoice
+WHERE
+InvoiceId IN (251,252,254))</sql><sql name="SQL 41">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: SUbquery and DISTINCT | Which tracks are not selling?
+*/
+SELECT
+TrackId,
+Composer,
+Name
+FROM
+Track
+WHERE
+TrackId NOT IN 
+
+(SELECT
+ DISTINCT
+TrackId
+FROM
+InvoiceLine
+ORDER By
+TrackId)</sql><sql name="SQL 42">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: SUbquery task: write a SQL query that identifies tracks have never been sold. your query should return list of these tracks, along with their composers and genre.
+*/
+SELECT
+t.TrackId,
+t.name As &quot;Track Name&quot;,
+t.Composer,
+g.Name As Genre
+FROM
+Track t
+INNER JOIN Genre g on t.GenreId = g.GenreId
+WHERE
+t.TrackId NOT IN 
+
+(SELECT
+ DISTINCT
+i.TrackId
+FROM
+InvoiceLine i)
+
+ORDER By
+&quot;Track Name&quot; ASC</sql><sql name="SQL 43">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: VIEW
+*/
+
+CREATE VIEW V_AvgTotal As 
+SELECT
+round(avg(total),2) As &quot;Average Total&quot;
+FROM
+Invoice</sql><sql name="Edit View V_AvgTotal">DROP VIEW &quot;main&quot;.&quot;V_AvgTotal&quot;;
+CREATE VIEW V_AvgTotal As 
+SELECT
+avg(total)As &quot;Average Total&quot;
+FROM
+Invoice</sql><sql name="SQL 45">/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: VIEW and join
+*/
+
+CREATE VIEW V_Tracks_Invoiceline As
+SELECT
+il.InvoiceId,il.UnitPrice, il.Quantity,t.Name,t.Composer,t.Milliseconds
+FROM
+InvoiceLine il
+INNER JOIN Track t ON il.TrackId=t.TrackId
+</sql><sql name="SQL 46">/* Created by Ashkan
+Date: 21/10/2024
+Describtion: deleting VIEW
+*/
+
+DROP VIEW V_AvgTotal</sql><sql name="SQL 47">/* 
+Created by Ashkan
+Date: 21/10/2024
+Describtion: DML | inserting Data
+*/
+
+INSERT INTO
+Artist(Name)
+VALUES('Bob Marley')
+
+</sql><sql name="SQL 48">/* 
+Created by Ashkan
+Date: 21/10/2024
+Describtion: DML | Updating Data
+*/
+
+UPDATE 
+Artist
+SET Name = 'Damien Marley'
+WHERE
+ArtistId=276</sql><sql name="SQL 49">/* 
+Created by Ashkan
+Date: 21/10/2024
+Describtion: DML | Deleting Data
+*/
+
+DELETE FROM
+Artist
+WHERE ArtistId = 276</sql><current_tab id="48"/></tab_sql></sqlb_project>
