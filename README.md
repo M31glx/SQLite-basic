@@ -3,7 +3,7 @@
  
  ## This project involves with fundamental approaches to manipulate data structure using SQLite browser
  
- ##Technologies: SQLite DB browser on Ubuntu 24
+ ## Technologies: SQLite DB browser on Ubuntu 24
  
  ## Course contents:
  - The Basics of data base structure
