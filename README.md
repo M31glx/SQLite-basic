@@ -18,7 +18,7 @@
  - Stored queries
  - Adding, Modifying and deleting data
  
-<embed src="Cert.pdf" type="application/pdf" width="100%" height="600px">
+
 
 
  
