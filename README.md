@@ -18,11 +18,8 @@
  - Stored queries
  - Adding, Modifying and deleting data
  
- 
- <iframe src="Cert.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="your-file.pdf">Download PDF</a>.
-</iframe>
+<embed src="Cert.pdf" type="application/pdf" width="100%" height="600px">
+
 
  
  
