@@ -18,6 +18,7 @@
  - Stored queries
  - Adding, Modifying and deleting data
  
+![SQL](https://img.shields.io/badge/Language-SQL-blue.svg)
 
 
 
