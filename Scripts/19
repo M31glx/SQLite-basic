@@ -1,0 +1,20 @@
+/*
+Created by Ashkan
+Date: 17/10/2024
+Describtion: Inner join: Join two tables via their primary and secondary keys. Joing corresponding data that are shared between two tables but not included discripensies
+*/
+
+SELECT
+c.LastName,
+c.FirstName,
+i.InvoiceId,
+i.total
+FROM
+Invoice As i
+INNER JOIN
+Customer As c
+ON
+i.CustomerId = c.CustomerId
+
+ORDER By
+c.CustomerId

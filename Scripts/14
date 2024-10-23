@@ -1,0 +1,22 @@
+/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: Get all invoices that are greater than $1.98 from any cities whose name starts with P or D
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+total > 1.98 AND (BillingCity like 'P%' or BillingCity like 'D%')
+
+ORDER by
+InvoiceDate
+

@@ -1,0 +1,19 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Grouping in SQL: What are average invoice total greater than $5.00?
+
+Having clause for filtering non-aggregated query
+*/
+
+SELECT
+BillingCity,
+round(avg(total),2)
+FROM
+Invoice 
+GROUP BY
+BillingCity
+HAVING
+avg(total)>5
+ORDER BY
+BillingCity

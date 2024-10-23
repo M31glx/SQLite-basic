@@ -1,0 +1,28 @@
+/*
+Created by Ashkan
+Date: 17/10/2024
+Describtion: Joining two tables: WHat employees are responsible for 10 highest individual sales? 
+*/
+
+SELECT
+ e.FirstName,
+ e.LastName,
+ e.EmployeeId,
+ c.FirstName,
+ c.LastName,
+ c.SupportRepId,
+ i.CustomerId,
+ i.total
+FROM
+ Invoice As i
+INNER JOIN 
+ Customer As c
+ON
+  i.CustomerId = c.CustomerId
+INNER JOIN
+ Employee As e
+ON
+c.SupportRepId = e.EmployeeId
+ORDER BY
+i.total DESC
+LIMIT 10

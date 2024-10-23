@@ -1,0 +1,17 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Subqueries in the SELECT: How is each individual city performing against the global average sales?
+*/
+
+SELECT
+BillingCity,
+round(avg(total),2) As "City Average",
+(SELECT round(avg(total),2) from Invoice) As "Global Average"
+
+FROM
+Invoice
+GROUP by
+BillingCity
+ORDER by
+BillingCity

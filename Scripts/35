@@ -1,0 +1,19 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Grouping by more than at a time | What are average invoice total by billing country and city?
+
+*/
+
+SELECT
+BillingCountry,
+BillingCity,
+round(avg(total),2)
+FROM
+Invoice 
+
+GROUP BY
+BillingCountry,BillingCity
+
+ORDER BY
+BillingCountry

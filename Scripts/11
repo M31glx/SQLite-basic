@@ -1,0 +1,24 @@
+/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: How many invoices were billed in May 22, 2010 (2010-05-22 00:00:00)
+*/
+
+-- partial operator, search for guesses
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+--InvoiceDate = '2010-05-22 00:00:00'
+date (InvoiceDate) = '2010-05-22'
+
+ORDER by
+InvoiceDate
+

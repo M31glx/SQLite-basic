@@ -1,0 +1,24 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: SUbquery task: write a SQL query that identifies tracks have never been sold. your query should return list of these tracks, along with their composers and genre.
+*/
+SELECT
+t.TrackId,
+t.name As "Track Name",
+t.Composer,
+g.Name As Genre
+FROM
+Track t
+INNER JOIN Genre g on t.GenreId = g.GenreId
+WHERE
+t.TrackId NOT IN 
+
+(SELECT
+ DISTINCT
+i.TrackId
+FROM
+InvoiceLine i)
+
+ORDER By
+"Track Name" ASC

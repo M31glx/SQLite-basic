@@ -1,0 +1,9 @@
+/* 
+Created by Ashkan
+Date: 21/10/2024
+Describtion: DML | Deleting Data
+*/
+
+DELETE FROM
+Artist
+WHERE ArtistId = 276

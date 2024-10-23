@@ -1,0 +1,19 @@
+
+/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: This report generates list of track names alongsides its prices
+*/
+
+
+SELECT
+Name As "Track Name",
+UnitPrice As "Price"
+
+FROM
+Track
+
+order by
+Name
+LIMIT
+20

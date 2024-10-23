@@ -1,0 +1,34 @@
+/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: Report that shows as many customers as possible purchasing between $7 and $15
+which cities has top performer
+
+Sales categories:
+Baseline purchases between 0.99 and 1.99
+Low purchases between $2 and $6.99
+Target purchases between $7 and $15
+Top performer Above $15
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total,
+CASE
+WHEN total<2 THEN 'Baseline Purchase'
+WHen total BETWEEN 2.00 and 6.99 THEN 'Low Purchase'
+WHEN total BETWEEN 7.00 and 15.00 THEN 'Target Purchase'
+ELSE 'Top Performer'
+end as PurchaseType
+
+From 
+Invoice
+
+WHERE
+PurchaseType = 'Top Performer'
+ORDER by
+InvoiceDate
+

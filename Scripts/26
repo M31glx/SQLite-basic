@@ -1,0 +1,23 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Concatenating: connecting collumns in a tables: make a mailing list of US customers
+removing unnecessary digits from postal code
+usage of Upper and Lower functions
+*/
+
+SELECT
+FirstName,
+LastName,
+Address,
+FirstName ||' '||LastName||' '||Address||','|| City||','||State||','||PostalCode As "Mailing Address",
+length(PostalCode),
+substr(PostalCode,1,5),
+upper(FirstName) As "Uppercase first name ",
+lower(LastName) AS "Lowercase Last Name"
+
+FROM
+Customer
+
+WHERE
+Country = "USA"

@@ -1,0 +1,17 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Grouping task: Create SQL report that calculates the average spending amount of customers in each city
+*/
+
+SELECT
+BillingCity AS City,
+round(avg(i.total),2) As 'average Spend'
+FROM
+Invoice i
+
+GROUP by
+BillingCity
+ORDER By
+City ASC
+

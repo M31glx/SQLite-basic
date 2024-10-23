@@ -1,0 +1,20 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Write a SQL query that selects custermer's full name and transform their postal code into standardized 5-digits format.
+*/
+
+SELECT
+FirstName,
+LastName,
+PostalCode,
+FirstName||' '||LastName AS "Fullname",
+substr(PostalCode,1,5) AS "Standardized Postal Code"
+
+FROM
+Customer
+
+WHERE
+Country = 'USA'
+ORDER BY
+Fullname

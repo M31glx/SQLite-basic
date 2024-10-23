@@ -1,0 +1,22 @@
+/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: How many invoice were billed to the city of Brussels
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+BillingCity = 'Brussels'
+
+ORDER by
+InvoiceDate
+

@@ -1,0 +1,18 @@
+/*
+Created by Ashkan
+Date: 17/10/2024
+Describtion: Join two tables via primary and secondary keys
+*/
+
+SELECT
+*
+FROM
+Invoice
+
+INNER JOIN
+Customer
+ON
+Invoice.CustomerId = Customer.CustomerId
+
+ORDER By
+Customer.CustomerId

@@ -1,0 +1,6 @@
+/* Created by Ashkan
+Date: 21/10/2024
+Describtion: deleting VIEW
+*/
+
+DROP VIEW V_AvgTotal

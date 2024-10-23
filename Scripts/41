@@ -1,0 +1,21 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: SUbquery and DISTINCT | Which tracks are not selling?
+*/
+SELECT
+TrackId,
+Composer,
+Name
+FROM
+Track
+WHERE
+TrackId NOT IN 
+
+(SELECT
+ DISTINCT
+TrackId
+FROM
+InvoiceLine
+ORDER By
+TrackId)

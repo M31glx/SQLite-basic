@@ -1,0 +1,21 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Concatenating: connecting collumns in a tables: make a mailing list of US customers
+removing unnecessary digits from postal code
+
+*/
+
+SELECT
+FirstName,
+LastName,
+Address,
+FirstName ||' '||LastName||' '||Address||','|| City||','||State||','||PostalCode As "Mailing Address",
+length(PostalCode),
+substr(PostalCode,1,5)
+
+FROM
+Customer
+
+WHERE
+Country = "USA"

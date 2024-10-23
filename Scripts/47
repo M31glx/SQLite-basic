@@ -1,0 +1,10 @@
+/* 
+Created by Ashkan
+Date: 21/10/2024
+Describtion: DML | inserting Data
+*/
+
+INSERT INTO
+Artist(Name)
+VALUES('Bob Marley')
+

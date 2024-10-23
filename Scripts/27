@@ -1,0 +1,15 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: strftime function: Calculate ages of all employees
+*/
+
+SELECT
+LastName,
+FirstName,
+BirthDate,
+strftime('%Y-%m-%d',Birthdate) As "Birth date no Time",
+strftime('%Y-%m-%d','now') - strftime('%Y-%m-%d',Birthdate) As Age
+
+FROM
+Employee

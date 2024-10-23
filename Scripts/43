@@ -1,0 +1,11 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: VIEW
+*/
+
+CREATE VIEW V_AvgTotal As 
+SELECT
+round(avg(total),2) As "Average Total"
+FROM
+Invoice

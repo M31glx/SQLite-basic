@@ -1,0 +1,23 @@
+/*
+Created by Ashkan
+Date: 17/10/2024
+Describtion: Write SQL query to generate a report that lists each customer along with their assigned support representative
+*/
+
+SELECT
+c.FirstName As "Customer First Name",
+c.LastName As "Customer Last Name",
+e.FirstName As "Employee First Name",
+e.LastName As "Employee Last Name",
+c.CustomerId,
+e.EmployeeId,
+c.SupportRepId
+
+FROM
+Customer As c
+INNER JOIN 
+Employee As e
+ON
+c.SupportRepId = e.EmployeeId
+ORDER By
+e.LastName, c.LastName

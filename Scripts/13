@@ -1,0 +1,22 @@
+/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: Get all invoices whose billing cities starts with P or D
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+BillingCity like 'P%' or BillingCity like 'D%'
+
+ORDER by
+InvoiceDate
+

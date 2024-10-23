@@ -1,0 +1,23 @@
+/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: Get all invoices were billed after May 22, 2010 and have total of less than $3.00
+*/
+
+-- partial operator, search for guesses
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+date (InvoiceDate) > '2010-05-22' AND total<3.00
+
+ORDER by
+InvoiceDate
+

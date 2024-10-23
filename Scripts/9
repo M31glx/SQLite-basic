@@ -1,0 +1,23 @@
+/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: How many invoices were billed to cities that starts with B
+*/
+
+-- partial operator, search for guesses
+
+SELECT
+InvoiceDate,
+BillingAddress,
+BillingCity,
+total
+
+From 
+Invoice
+
+Where 
+BillingCity like 'B%'
+
+ORDER by
+InvoiceDate
+

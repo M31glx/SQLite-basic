@@ -1,0 +1,17 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Concatenating: connecting collumns in a tables: make a mailing list of US customers
+*/
+
+SELECT
+FirstName,
+LastName,
+Address,
+FirstName ||' '||LastName||' '||Address||','|| City||','||State||','||PostalCode As "Mailing Address"
+
+FROM
+Customer
+
+WHERE
+Country = "USA"

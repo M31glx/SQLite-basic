@@ -1,0 +1,21 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: Grouping in SQL: What are average invoice total by city for only citiis start with L?
+*/
+
+SELECT
+BillingCity,
+round(avg(total),2)
+
+FROM
+Invoice 
+
+WHERE
+BillingCity like 'L%'
+
+GROUP BY
+BillingCity
+
+ORDER BY
+BillingCity

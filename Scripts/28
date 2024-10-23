@@ -1,0 +1,15 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: agregate function: What are our all time global sales?
+*/
+
+SELECT
+sum(total) As "Total sale",
+round(avg(total),2) AS "Average Sale",
+max(total) AS "Maximum sale",
+min(total) AS "Minimum Sale",
+Count(*) As "Sales Count"
+
+FROM
+Invoice

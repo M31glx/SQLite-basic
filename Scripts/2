@@ -1,0 +1,33 @@
+/*
+created by Ashkan Alvand
+Date: 15/10/2024
+Description: This query displays all customers firs, last names and email addresses
+*/
+
+-- Working with SELECT and FROM
+/* 
+SELECT
+FirstName,
+LastName,
+Email
+
+FROM
+Customer
+*/
+
+-- Aliasing
+
+SELECT
+FirstName As [Customer First Name],
+LastName As 'Customer Last Name',
+Email As EMAIL
+
+FROM
+Customer
+-- ordering 
+order by
+FirstName ASC,
+LastName DESC
+
+-- top or botton x number
+LIMIT 10

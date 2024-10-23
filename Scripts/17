@@ -1,0 +1,28 @@
+/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: write sql query that select track names, composers, and unit price and categorize each track based on its price 
+
+Track categories:
+Budget less than or equal to  $0.99
+Regular between $1.00 and $1.49
+Premium between $1.50 and $1.99
+Exclusive Above $1.99
+*/
+
+SELECT
+Name As "Track Name" ,
+Composer,
+UnitPrice As Price,
+CASE
+    WHEN UnitPrice <= 0.99 THEN 'Budget'
+    WHEN UnitPrice > 0.99 AND UnitPrice <= 1.49 THEN 'Regular'
+    WHEN UnitPrice > 1.49 AND UnitPrice <= 1.99 THEN 'Premium'
+    ELSE 'Exclusive'
+END AS PriceCategory
+
+FROM
+Track
+
+ORDER by 
+UnitPrice DESC;

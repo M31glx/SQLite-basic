@@ -1,0 +1,21 @@
+/*
+Created by Ashkan
+Date: 15/10/2024
+Describtion: How many invoice exist between $1.98 and $5
+*/
+
+
+SELECT
+InvoiceDate,
+BillingAddress,
+total
+
+From 
+Invoice
+
+Where 
+total BETWEEN 1.98 AND 5
+
+ORDER by
+InvoiceDate
+

@@ -1,0 +1,12 @@
+/*
+Created by Ashkan
+Date: 21/10/2024
+Describtion: VIEW and join
+*/
+
+CREATE VIEW V_Tracks_Invoiceline As
+SELECT
+il.InvoiceId,il.UnitPrice, il.Quantity,t.Name,t.Composer,t.Milliseconds
+FROM
+InvoiceLine il
+INNER JOIN Track t ON il.TrackId=t.TrackId
